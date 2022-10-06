@@ -23,3 +23,9 @@ Enfin, modifiez la config DB dans le fichier .env de Symfony :
 ````shell
 DATABASE_URL=mysql://root:ChangeMeLater@db:3306/symfony_db?serverVersion=mariadb-10.7.1
 ````
+Quelque Bundles utiles :
+````shell
+composer require twig
+composer require --dev symfony/profiler-pack
+composer require symfony/debug-pack
+````
