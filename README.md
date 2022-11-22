@@ -14,7 +14,7 @@ Pensez ensuite à aller exécuter toutes vos commandes depuis l'intérieur du co
 
 Par exemple :
 ````shell
-cd symfony_project
+cd backend
 composer require orm
 ````
 (Demandez à Composer de NE PAS créer une config Docker pour la database)
